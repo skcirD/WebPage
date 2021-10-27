@@ -1,0 +1,259 @@
+body{
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+
+/* top-bakcground */
+.top-img{
+  height: 560px;
+  width: 100%;
+}
+
+
+
+/* NAV BAR */
+.nav-bar{
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.aLink-con{
+  margin-top: 25px;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  margin: 20px;
+  font-weight: bolder;
+  color: white;
+  transition: 0.5s;
+}
+
+.nav-bar a:hover{
+  transition: 0.5s;
+  color: #A85F24;
+  font-size: 2.5rem;
+}
+
+.txt-searchBar{
+  background: white;
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+  position: absolute;
+  right: 50px;
+  border: 0;
+}
+
+/* BODY - content */
+.content-con .text-NB h1,p{
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.content-con h1{
+  margin-bottom: 0;
+  margin-top: -10px;
+}
+
+h5{
+  margin-left: 25px;
+  margin-top: -30px;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: lighter;
+}
+
+.content-con p{
+  margin-top: 0;
+}
+
+.ch{
+  margin-bottom: 80px;
+  font-family: arial;
+  font-weight: lighter;
+}
+.ch a,label{
+  text-decoration: none;
+  font-size: 30px;
+  color: gray;
+}
+
+.ch a{
+  margin: 15px;
+
+}
+
+.ch a:hover{
+  color: #A85F24;
+}
+
+.ch{
+  margin-left: 400px;
+}
+
+#btn{
+  margin-left: 25px;
+}
+
+#btn button{
+  height: 50px;
+  width: 150px;
+  border: 0;
+  background: black;
+  color: white;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+
+#btn button:hover{
+  transition: 0.5s;
+  background: #555555;
+}
+
+#btn button a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* products */
+.Product-con{
+  margin-top: 10px;
+  height: 550px;
+  width: 100%;
+  background: #2E2E2E;
+  padding-top: 10px;
+}
+
+.Product-con h1{
+  color: #FFFFFF;
+  margin-left: 25px;
+}
+
+#box{
+  height: 350px;
+  width: 250px;
+  background: white;
+  margin-right: 10px;
+  margin-left: 30px;
+  display: inline-block;
+  padding: 10px;
+}
+
+#img-p{
+  position: relative;
+  top: 10px;
+  left: 65px;
+}
+
+
+.Product .Product-con h5{
+  margin-top: 50px;
+}
+
+.Product .Product-con h6{
+  margin-left: 25px;
+  font-size: 12px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.Product .Product-con a{
+  text-decoration: none;
+  color: red;
+  position: relative;
+  bottom: 15px;
+  left: 25px;
+}
+
+
+/* footer */
+.f1{
+  width: 100%;
+  height: 200px;
+  background: #D8D8D8;
+  display: flex;
+}
+
+.fNaruto-img{
+  position: relative;
+  height: 250px;
+  bottom: 50px;
+}
+
+.f1-con2{
+  position: relative;
+  width: 600px;
+  margin-left: 10px;
+}
+
+.f1-con3{
+  position: relative;
+  width: 600px;
+  margin-left: 10px;
+}
+
+.footer .f1 .f1-con3 .btnT{
+  padding: 10px;
+  width:  250px;
+  height: 35px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.footer .f1 .f1-con3 .btnS{
+  margin-left: 0;
+  width:  100px;
+  height: 59px;
+  border: 0;
+  background: red;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer .f1 .f1-con3 .btnS:hover{
+  transition: 0.5s;
+  background: #FF5555;
+}
+
+
+
+
+
+.f2{
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background: #2E2E2E;
+}
+
+.f2-con{
+padding-top: 100px;
+}
+
+.gtext a{
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+.gtext a:hover{
+  transition: 0.5s;
+  margin: 5px;
+  text-decoration: underline;
+}
+
+.f2-con label, a{
+  color: white;
+}
